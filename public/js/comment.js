@@ -66,7 +66,7 @@ function renderComment() {
         $lis.eq(2).html('<a href="javascript:;">下一页</a>')
     }
 
-    if (comments.length == 0){
+    if (comments.length == 0  ){
         $('.messageList').html('<div class="messageBox"><p>还没有评论内容</p></div>')
     }else {
         var html = '';
